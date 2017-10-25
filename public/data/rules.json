@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Guess sportist from Serbia",
+    "body": "if (param.isSerbian) {return true} else {return false}",
+    "true_id": 2,
+    "false_id": 3
+  },
+  {
+    "id": 2,
+    "name": "Is basketball player",
+    "body": "if (param.isBasketballPlayer) {return true} else {return false}",
+    "true_id": 4,
+    "false_id": 5
+  },
+  {
+    "id": 3,
+    "name": "I don't know this sportist",
+    "body": "return true",
+    "true_id": null,
+    "false_id": null
+  },
+  {
+    "id": 4,
+    "name": "Is Playmaker",
+    "body": "if (param.isPlaymaker) {return true} else {return false}",
+    "true_id": 6,
+    "false_id": 7
+  },
+  {
+    "id": 5,
+    "name": "Is footballplayer?",
+    "body": "if (param.isFootballPlayer) {return true} else {return false}",
+    "true_id": 4,
+    "false_id": 3
+  },
+  {
+      "id": 6,
+      "name": "It Milos Teodosic",
+      "body": "return true",
+      "true_id": null,
+      "false_id": null
+  }
+]
